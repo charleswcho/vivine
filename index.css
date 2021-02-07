@@ -1,0 +1,86 @@
+html,
+body {
+  color: white;
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+/* CSS reset */
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Components */
+
+.link-button {
+  color: black;
+  width: 9rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Real CSS */
+
+.splash {
+  height: calc(100vh - 68px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subtitle {
+  margin-bottom: 1rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media-icon {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+/* Media queries */
+
+/* Tablet */
+@media only screen and (min-width: 426px) {
+}
+
+/* Laptop and up */
+@media only screen and (min-width: 769px) {
+  h2 {
+    font-size: 2em;
+  }
+
+  a {
+    width: 300px;
+  }
+}
